@@ -33,7 +33,7 @@ export default function Contact() {
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-orange-500 mx-auto mb-4 sm:mb-6"></div>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Have a question or want to make a reservation? We'd love to hear from you!
+            Have a question or want to make a reservation? We&apos;d love to hear from you!
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
                   required
                   rows={4}
                   className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-colors duration-200 resize-none text-sm sm:text-base"
-                  placeholder="Tell us what's on your mind..."
+                  placeholder="Tell us what&apos;s on your mind..."
                 />
               </div>
 
@@ -106,9 +106,12 @@ export default function Contact() {
           <div className="space-y-6 sm:space-y-8">
             {/* Quick Contact */}
             <div className="bg-white p-6 sm:p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl sm:text-2xl font-playfair font-bold text-gray-900 mb-6">
+              <h3 className="text-2xl font-playfair font-bold text-gray-900 mb-4">
                 Get in Touch
               </h3>
+              <p className="text-gray-600 mb-6">
+                We&apos;d love to hear from you! Send us a message and we&apos;ll respond as soon as possible.
+              </p>
               
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 sm:space-x-4">

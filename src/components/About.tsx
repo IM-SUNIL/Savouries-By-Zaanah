@@ -25,7 +25,7 @@ export default function About() {
             
             <div className="bg-orange-500 text-white p-6 rounded-lg">
               <p className="text-xl font-playfair font-semibold italic">
-                "Serving real Southern flavor with real Southern love since day one!"
+                &ldquo;Serving real Southern flavor with real Southern love since day one!&rdquo;
               </p>
             </div>
           </div>
