@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real Fish Restaurant Website
 
-## Getting Started
+A modern, responsive restaurant website for "Real Fish" - a Southern-style restaurant located in England, Arkansas.
 
-First, run the development server:
+## 🍽️ About Real Fish
 
+**Real Fish** serves authentic Southern cuisine with a focus on fresh seafood, chicken, pork, and burgers. Located at 223 W Purdon St, England, AR 72046, we bring real Southern flavor with real Southern love to every dish.
+
+### Contact Information
+- **Phone:** +1 (501) 842-0944
+- **Address:** 223 W Purdon St, England, AR 72046, United States
+- **Hours:** 
+  - Thursday - Friday: 5:00 PM - 9:00 PM
+  - Saturday: 12:00 PM - 7:00 PM
+  - Sunday: 12:00 PM - 5:00 PM
+  - Monday - Wednesday: Closed
+
+## 🚀 Features
+
+- **Fully Responsive Design** - Works perfectly on all devices
+- **Modern UI/UX** - Clean, elegant design with smooth animations
+- **Interactive Menu** - Complete menu with pricing for ½ lb and 1 lb portions
+- **Google Maps Integration** - Easy location finding
+- **Contact Form** - Customer inquiry system
+- **Image Gallery** - Showcase of our delicious dishes
+- **Smooth Scrolling Navigation** - Seamless user experience
+
+## 🛠️ Technology Stack
+
+- **Next.js 15** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Playfair Display** - Elegant typography for headings
+- **Inter** - Modern sans-serif font for body text
+
+## 🎨 Design System
+
+- **Color Palette:** Orange (#ff6b35), Red (#d62828), Black, White
+- **Typography:** Playfair Display for headings, Inter for body text
+- **Animations:** Smooth transitions and hover effects
+- **Layout:** Grid-based responsive design
+
+## 📱 Pages/Sections
+
+1. **Hero Section** - Eye-catching introduction with call-to-action
+2. **About Us** - Restaurant story and Southern roots
+3. **Menu** - Complete menu with categories and pricing
+4. **Gallery** - Photo showcase of dishes
+5. **Visit Us** - Location, hours, and Google Maps integration
+6. **Contact** - Contact form and information
+7. **Footer** - Additional links and information
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd realfish
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is optimized for deployment on Vercel:
 
-## Deploy on Vercel
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Key Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Menu Categories
+- **Fish & Seafood** - Catfish, Tilapia, Shrimp, Crawfish, Oysters
+- **Chicken** - Fried Chicken Breast, Wings, Tenders, Grilled Chicken
+- **Pork** - Pork Chops, Pulled Pork, Pork Ribs, Bacon Wrapped Pork
+- **Burgers** - Classic, Cheese, Bacon, Mushroom Swiss
+
+### Special Notes
+- All dinners come with 2 sides (Premium sides extra $1.99)
+- Cash preferred, cards accepted with 4% fee
+- Authentic Southern recipes passed down through generations
+
+## 🤝 Contributing
+
+This is a static restaurant website. For any updates or modifications, please contact the restaurant directly.
+
+## 📄 License
+
+This project is created for Real Fish restaurant. All rights reserved.
+
+---
+
+**Real Fish** - Serving real Southern flavor with real Southern love since day one! 🐟❤️
