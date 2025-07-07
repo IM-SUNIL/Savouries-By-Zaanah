@@ -3,44 +3,44 @@
 export default function Gallery() {
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Southern fried catfish",
-      title: "Southern Fried Catfish"
+      src: "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Fresh baked bread and pastries",
+      title: "Fresh Baked Goods"
     },
     {
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Comfort food platter",
-      title: "Comfort Food Platter"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Grilled seafood",
-      title: "Grilled Seafood"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Southern style chicken",
-      title: "Southern Style Chicken"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Pork ribs",
-      title: "Pork Ribs"
+      src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Bakery kitchen and fresh donuts",
+      title: "Fresh Donuts"
     },
     {
       src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Burgers and sides",
-      title: "Burgers & Sides"
+      alt: "Fried chicken and comfort food",
+      title: "Fried Chicken"
     },
     {
-      src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Hush puppies",
-      title: "Hush Puppies"
+      src: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Fresh pizza from the oven",
+      title: "Fresh Pizza"
     },
     {
       src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      alt: "Coleslaw and sides",
-      title: "Fresh Sides"
+      alt: "Homemade burgers and fries",
+      title: "Burgers & Fries"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Blueberry French toast",
+      title: "Blueberry French Toast"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Fresh baked cookies",
+      title: "Fresh Cookies"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      alt: "Homemade soups and sandwiches",
+      title: "Soups & Sandwiches"
     }
   ];
 
@@ -52,9 +52,9 @@ export default function Gallery() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-gray-900 mb-4">
             Our Gallery
           </h2>
-          <div className="w-16 sm:w-20 h-1 bg-orange-500 mx-auto mb-4 sm:mb-6"></div>
+          <div className="w-16 sm:w-20 h-1 bg-amber-600 mx-auto mb-4 sm:mb-6"></div>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Take a look at some of our most popular dishes and the Southern hospitality we serve
+            Take a look at some of our most popular dishes and the warm hospitality we serve
           </p>
         </div>
 
@@ -95,12 +95,12 @@ export default function Gallery() {
 
         {/* CTA Section */}
         <div className="text-center mt-12 sm:mt-16">
-          <div className="bg-orange-50 rounded-lg p-6 sm:p-8 max-w-2xl mx-auto">
+          <div className="bg-amber-50 rounded-lg p-6 sm:p-8 max-w-2xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-playfair font-bold text-gray-900 mb-4">
               Hungry for More?
             </h3>
             <p className="text-sm sm:text-base text-gray-600 mb-6">
-              Come visit us and experience the authentic taste of Southern hospitality
+              Come visit us and experience the warm comfort of homemade meals and fresh bakery goods
             </p>
             <button 
               onClick={() => {
@@ -109,7 +109,7 @@ export default function Gallery() {
                   visitSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-sm sm:text-base w-full sm:w-auto"
+              className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 sm:px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg text-sm sm:text-base w-full sm:w-auto"
             >
               Visit Us Today
             </button>

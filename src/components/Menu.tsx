@@ -3,40 +3,45 @@
 export default function Menu() {
   const menuCategories = [
     {
-      title: "Fish & Seafood",
+      title: "Everyday Items",
       items: [
-        { name: "Catfish", halfLb: "$8.99", fullLb: "$15.99" },
-        { name: "Tilapia", halfLb: "$7.99", fullLb: "$13.99" },
-        { name: "Shrimp", halfLb: "$9.99", fullLb: "$17.99" },
-        { name: "Crawfish", halfLb: "$10.99", fullLb: "$19.99" },
-        { name: "Oysters", halfLb: "$11.99", fullLb: "$21.99" },
+        { name: "Fried Chicken", price: "$12.99", description: "Crispy golden fried chicken" },
+        { name: "Pizza", price: "$14.99", description: "Fresh baked pizza with your choice of toppings" },
+        { name: "Donair", price: "$11.99", description: "Traditional donair with special sauce" },
+        { name: "Burgers", price: "$10.99", description: "Juicy beef burgers with fries" },
+        { name: "Fish & Chips", price: "$13.99", description: "Fresh battered fish with golden fries" },
+        { name: "Chicken Wings", price: "$11.99", description: "Crispy wings with dipping sauce" },
       ]
     },
     {
-      title: "Chicken",
+      title: "Hot Lunch & Supper",
       items: [
-        { name: "Fried Chicken Breast", halfLb: "$6.99", fullLb: "$11.99" },
-        { name: "Chicken Wings", halfLb: "$7.99", fullLb: "$13.99" },
-        { name: "Chicken Tenders", halfLb: "$6.99", fullLb: "$11.99" },
-        { name: "Grilled Chicken", halfLb: "$7.99", fullLb: "$13.99" },
+        { name: "Monday - Meatloaf", price: "$12.99", description: "Homemade meatloaf with mashed potatoes" },
+        { name: "Tuesday - Chicken Alfredo", price: "$13.99", description: "Creamy alfredo pasta with grilled chicken" },
+        { name: "Wednesday - Roast Beef", price: "$14.99", description: "Tender roast beef with gravy" },
+        { name: "Thursday - Shepherd's Pie", price: "$12.99", description: "Classic shepherd's pie with ground beef" },
+        { name: "Friday - Fish Fry", price: "$13.99", description: "Fresh fish with coleslaw and fries" },
+        { name: "Saturday - Pot Roast", price: "$14.99", description: "Slow-cooked pot roast with vegetables" },
       ]
     },
     {
-      title: "Pork",
+      title: "Soups & Sandwiches",
       items: [
-        { name: "Pork Chops", halfLb: "$8.99", fullLb: "$15.99" },
-        { name: "Pulled Pork", halfLb: "$7.99", fullLb: "$13.99" },
-        { name: "Pork Ribs", halfLb: "$9.99", fullLb: "$17.99" },
-        { name: "Bacon Wrapped Pork", halfLb: "$10.99", fullLb: "$19.99" },
+        { name: "Monday - Chicken Noodle Soup", price: "$8.99", description: "Homemade chicken noodle soup" },
+        { name: "Tuesday - Tomato Basil Soup", price: "$7.99", description: "Creamy tomato basil soup" },
+        { name: "Wednesday - Beef Vegetable Soup", price: "$8.99", description: "Hearty beef vegetable soup" },
+        { name: "Thursday - Broccoli Cheddar Soup", price: "$7.99", description: "Rich broccoli cheddar soup" },
+        { name: "Friday - Clam Chowder", price: "$9.99", description: "Creamy New England clam chowder" },
+        { name: "Sandwich of the Day", price: "$9.99", description: "Fresh deli sandwich with chips" },
       ]
     },
     {
-      title: "Burgers",
+      title: "Saturday Breakfast Special",
       items: [
-        { name: "Classic Burger", halfLb: "$6.99", fullLb: "$11.99" },
-        { name: "Cheese Burger", halfLb: "$7.99", fullLb: "$12.99" },
-        { name: "Bacon Burger", halfLb: "$8.99", fullLb: "$13.99" },
-        { name: "Mushroom Swiss Burger", halfLb: "$8.99", fullLb: "$13.99" },
+        { name: "Blueberry French Toast", price: "$11.99", description: "Thick-cut French toast with fresh blueberries" },
+        { name: "Bacon & Eggs", price: "$10.99", description: "Farm fresh eggs with crispy bacon" },
+        { name: "Pancakes", price: "$9.99", description: "Fluffy pancakes with maple syrup" },
+        { name: "Breakfast Sandwich", price: "$8.99", description: "Egg, cheese, and bacon on fresh bun" },
       ]
     }
   ];
@@ -49,9 +54,9 @@ export default function Menu() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-gray-900 mb-4">
             Our Menu
           </h2>
-          <div className="w-16 sm:w-20 h-1 bg-orange-500 mx-auto mb-4 sm:mb-6"></div>
+          <div className="w-16 sm:w-20 h-1 bg-amber-600 mx-auto mb-4 sm:mb-6"></div>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
-            Discover our Southern favorites, each dish prepared with love and the finest ingredients
+            Discover our delicious homemade meals and fresh bakery goods, each prepared with love and the finest ingredients
           </p>
         </div>
 
@@ -69,19 +74,17 @@ export default function Menu() {
                     key={item.name} 
                     className="bg-gray-50 rounded-lg p-4 sm:p-6 hover:shadow-lg transition-all duration-300 hover:transform hover:scale-105 border border-gray-200"
                   >
-                    <h4 className="text-lg sm:text-xl font-playfair font-semibold text-gray-900 mb-3 sm:mb-4">
-                      {item.name}
-                    </h4>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm sm:text-base text-gray-600">½ lb</span>
-                        <span className="font-bold text-orange-500 text-sm sm:text-base">{item.halfLb}</span>
-                      </div>
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm sm:text-base text-gray-600">1 lb</span>
-                        <span className="font-bold text-orange-500 text-sm sm:text-base">{item.fullLb}</span>
-                      </div>
+                    <div className="flex justify-between items-start mb-3">
+                      <h4 className="text-lg sm:text-xl font-playfair font-semibold text-gray-900 flex-1">
+                        {item.name}
+                      </h4>
+                      <span className="font-bold text-amber-600 text-lg sm:text-xl ml-4">
+                        {item.price}
+                      </span>
                     </div>
+                    <p className="text-sm sm:text-base text-gray-600">
+                      {item.description}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -90,14 +93,14 @@ export default function Menu() {
         </div>
 
         {/* Important Notes */}
-        <div className="mt-12 sm:mt-16 bg-orange-50 border-l-4 border-orange-500 p-4 sm:p-6 rounded-lg">
+        <div className="mt-12 sm:mt-16 bg-amber-50 border-l-4 border-amber-600 p-4 sm:p-6 rounded-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <div>
               <h4 className="text-base sm:text-lg font-playfair font-semibold text-gray-900 mb-2">
-                🍽️ All Dinners Include
+                🍽️ All Meals Include
               </h4>
               <p className="text-sm sm:text-base text-gray-700">
-                All dinners come with 2 sides. Premium sides extra $1.99
+                All main dishes come with your choice of sides. Premium sides available for extra charge.
               </p>
             </div>
             <div>
@@ -105,7 +108,7 @@ export default function Menu() {
                 💳 Payment Options
               </h4>
               <p className="text-sm sm:text-base text-gray-700">
-                Cash preferred. Cards accepted with 4% fee
+                Cash and cards accepted. We also accept local checks.
               </p>
             </div>
           </div>
@@ -118,8 +121,8 @@ export default function Menu() {
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
             {[
-              "Hush Puppies", "Coleslaw", "French Fries", "Onion Rings",
-              "Baked Beans", "Mac & Cheese", "Green Beans", "Sweet Potato Fries"
+              "French Fries", "Coleslaw", "Mashed Potatoes", "Gravy",
+              "Baked Beans", "Mac & Cheese", "Green Beans", "Onion Rings"
             ].map((side) => (
               <div key={side} className="text-center p-2 sm:p-3 bg-gray-100 rounded-lg">
                 <span className="text-xs sm:text-sm text-gray-700 font-medium">{side}</span>

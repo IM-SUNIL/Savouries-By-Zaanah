@@ -41,11 +41,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo */}
           <Link href="#home" className="flex items-center space-x-2">
-            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-orange-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xs sm:text-sm">RF</span>
+            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-amber-600 rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-xs sm:text-sm">VB</span>
             </div>
             <span className="text-lg sm:text-xl font-playfair font-bold text-gray-900">
-              Real Fish
+              VanHout Bakery
             </span>
           </Link>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="text-gray-700 hover:text-orange-500 font-medium transition-colors duration-200 text-sm lg:text-base"
+                className="text-gray-700 hover:text-amber-600 font-medium transition-colors duration-200 text-sm lg:text-base"
               >
                 {link.label}
               </button>
@@ -65,7 +65,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500"
+            className="md:hidden p-2 rounded-md text-gray-700 hover:text-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-600"
             aria-label="Toggle menu"
           >
             <svg
@@ -101,7 +101,7 @@ export default function Navbar() {
                 <button
                   key={link.href}
                   onClick={() => scrollToSection(link.href)}
-                  className="block w-full text-left px-4 py-3 text-gray-700 hover:text-orange-500 hover:bg-gray-50 rounded-lg font-medium transition-colors duration-200"
+                  className="block w-full text-left px-4 py-3 text-gray-700 hover:text-amber-600 hover:bg-gray-50 rounded-lg font-medium transition-colors duration-200"
                 >
                   {link.label}
                 </button>

@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white relative overflow-hidden">
-      {/* Fish Pattern Background */}
+      {/* Bakery Pattern Background */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-10 left-10">
           <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
@@ -28,20 +28,20 @@ export default function Footer() {
             {/* Restaurant Info */}
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">RF</span>
+                <div className="w-8 h-8 bg-amber-600 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">VB</span>
                 </div>
                 <span className="text-2xl font-playfair font-bold">
-                  Real Fish
+                  VanHout Bakery
                 </span>
               </div>
               <p className="text-gray-300 mb-4 max-w-md">
-                Serving real Southern flavor with real Southern love since day one! 
-                Come experience authentic Southern hospitality in England, Arkansas.
+                Baking joy, serving comfort. Serving the community of Athabasca with 
+                homemade meals, fresh bakery goods, and warm smiles.
               </p>
               <div className="flex space-x-4">
-                <a href="tel:+15018420944" className="text-orange-400 hover:text-orange-300 transition-colors duration-200">
-                  +1 (501) 842-0944
+                <a href="tel:+17806752128" className="text-amber-400 hover:text-amber-300 transition-colors duration-200">
+                  +1 780-675-2128
                 </a>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Footer() {
                         menuSection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="text-gray-300 hover:text-orange-400 transition-colors duration-200"
+                    className="text-gray-300 hover:text-amber-400 transition-colors duration-200"
                   >
                     Menu
                   </button>
@@ -71,7 +71,7 @@ export default function Footer() {
                         aboutSection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="text-gray-300 hover:text-orange-400 transition-colors duration-200"
+                    className="text-gray-300 hover:text-amber-400 transition-colors duration-200"
                   >
                     About Us
                   </button>
@@ -84,7 +84,7 @@ export default function Footer() {
                         gallerySection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="text-gray-300 hover:text-orange-400 transition-colors duration-200"
+                    className="text-gray-300 hover:text-amber-400 transition-colors duration-200"
                   >
                     Gallery
                   </button>
@@ -97,7 +97,7 @@ export default function Footer() {
                         contactSection.scrollIntoView({ behavior: 'smooth' });
                       }
                     }}
-                    className="text-gray-300 hover:text-orange-400 transition-colors duration-200"
+                    className="text-gray-300 hover:text-amber-400 transition-colors duration-200"
                   >
                     Contact
                   </button>
@@ -109,10 +109,10 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-playfair font-semibold mb-4">Hours</h3>
               <ul className="space-y-2 text-gray-300">
-                <li>Thu-Fri: 5PM-9PM</li>
-                <li>Saturday: 12PM-7PM</li>
-                <li>Sunday: 12PM-5PM</li>
-                <li className="text-red-400">Mon-Wed: Closed</li>
+                <li>Mon-Fri: 7AM-6PM</li>
+                <li>Saturday: 7AM-5PM</li>
+                <li>Sunday: 8AM-3PM</li>
+                <li className="text-amber-400">Breakfast Special: Saturday Only</li>
               </ul>
             </div>
           </div>
@@ -121,10 +121,10 @@ export default function Footer() {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <div className="text-gray-400 text-sm">
-                © {new Date().getFullYear()} Real Fish. All rights reserved.
+                © {new Date().getFullYear()} VanHout Bakery. All rights reserved.
               </div>
               <div className="text-gray-400 text-sm">
-                Designed with ❤️ for Southern hospitality
+                Designed with ❤️ for the Athabasca community
               </div>
             </div>
           </div>

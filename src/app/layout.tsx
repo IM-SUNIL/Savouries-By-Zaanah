@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Real Fish - Southern Flavor, Real Love",
-  description: "Serving real Southern flavor with real Southern love since day one! Located in England, AR.",
-  keywords: "restaurant, seafood, Southern food, England AR, Real Fish",
+  title: "VanHout Bakery - Baking Joy, Serving Comfort",
+  description: "Serving the community of Athabasca with homemade meals, fresh bakery goods, and warm smiles. Located at 4908 51 ST, Athabasca, AB.",
+  keywords: "bakery, restaurant, Athabasca, Alberta, homemade meals, fresh bakery, donuts, pizza, burgers, fried chicken",
 };
 
 export default function RootLayout({
