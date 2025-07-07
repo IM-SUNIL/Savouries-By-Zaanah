@@ -41,13 +41,14 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo */}
           <Link href="#home" className="flex items-center space-x-2">
-            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-amber-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xs sm:text-sm">VB</span>
+            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-amber-800 rounded-full flex items-center justify-center">
+              <span className="text-white font-bold text-xs sm:text-sm">SZ</span>
             </div>
-            <span className="text-lg sm:text-xl font-playfair font-bold text-gray-900">
-              VanHout Bakery
+            <span className="text-lg sm:text-xl font-playfair font-bold text-burgundy">
+              Savouries By Zaanah
             </span>
           </Link>
+          <span className="hidden sm:inline-block ml-4 text-xs sm:text-sm font-serif italic text-amber-900 tracking-wide">Handmade, Heartfelt, Halal.</span>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8">

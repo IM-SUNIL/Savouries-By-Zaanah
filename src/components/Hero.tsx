@@ -9,7 +9,7 @@ export default function Hero() {
         <div 
           className="w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')"
+            backgroundImage: "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80')"
           }}
         ></div>
       </div>
@@ -18,11 +18,11 @@ export default function Hero() {
       <div className="relative z-20 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-playfair font-bold mb-4 sm:mb-6 animate-fade-in-up leading-tight">
           Welcome to
-          <span className="block text-amber-400 mt-2">VanHout Bakery</span>
+          <span className="block text-amber-700 mt-2">Savouries By Zaanah</span>
         </h1>
         
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 animate-fade-in-up px-4 sm:px-0" style={{ animationDelay: '0.2s' }}>
-          Baking joy, serving comfort
+        <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-amber-100 animate-fade-in-up px-4 sm:px-0" style={{ animationDelay: '0.2s' }}>
+          Handmade, Heartfelt, Halal.
         </p>
         
         <button 
@@ -32,10 +32,10 @@ export default function Hero() {
               menuSection.scrollIntoView({ behavior: 'smooth' });
             }
           }}
-          className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg animate-fade-in-up w-full sm:w-auto"
+          className="bg-amber-800 hover:bg-burgundy text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg animate-fade-in-up w-full sm:w-auto"
           style={{ animationDelay: '0.4s' }}
         >
-          View Our Menu
+          View Menu
         </button>
       </div>
 

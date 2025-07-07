@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "VanHout Bakery - Baking Joy, Serving Comfort",
-  description: "Serving the community of Athabasca with homemade meals, fresh bakery goods, and warm smiles. Located at 4908 51 ST, Athabasca, AB.",
-  keywords: "bakery, restaurant, Athabasca, Alberta, homemade meals, fresh bakery, donuts, pizza, burgers, fried chicken",
+  title: "Savouries By Zaanah - Handmade, Heartfelt, Halal.",
+  description: "Savouries By Zaanah is a Cape Town–based home business serving freshly made savouries, sweet treats, and authentic South African flavours, all handmade with love and care. Located at 27 Wabash Rd, Manenberg, Cape Town, 7767, South Africa.",
+  keywords: "savouries, bakery, Cape Town, halal, handmade, sweet treats, snacks, South Africa, samoosas, pies, pastries, Ramadan, Eid, party platters, Zaanah",
 };
 
 export default function RootLayout({
